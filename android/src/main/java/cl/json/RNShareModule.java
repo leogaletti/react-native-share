@@ -25,6 +25,7 @@ import cl.json.social.ShareIntent;
 import cl.json.social.TargetChosenReceiver;
 import cl.json.social.TwitterShare;
 import cl.json.social.WhatsAppShare;
+import cl.json.social.WhatsAppBusinessShare;
 import cl.json.social.InstagramShare;
 import cl.json.social.PinterestShare;
 import cl.json.social.SnapChatShare;
@@ -59,6 +60,7 @@ public class RNShareModule extends ReactContextBaseJavaModule implements Activit
         pagesmanager,
         twitter,
         whatsapp,
+        whatsappBusiness,
         instagram,
         googleplus,
         email,
@@ -81,6 +83,8 @@ public class RNShareModule extends ReactContextBaseJavaModule implements Activit
                     return new TwitterShare(reactContext);
                 case whatsapp:
                     return new WhatsAppShare(reactContext);
+                case whatsappBusiness:
+                    return new WhatsAppBusinessShare(reactContext);
                 case instagram:
                     return new InstagramShare(reactContext);
                 case googleplus:
