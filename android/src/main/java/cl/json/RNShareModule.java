@@ -60,7 +60,7 @@ public class RNShareModule extends ReactContextBaseJavaModule implements Activit
         pagesmanager,
         twitter,
         whatsapp,
-        whatsappBusiness,
+        whatsappbusiness,
         instagram,
         googleplus,
         email,
