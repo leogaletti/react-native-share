@@ -83,7 +83,7 @@ public class RNShareModule extends ReactContextBaseJavaModule implements Activit
                     return new TwitterShare(reactContext);
                 case whatsapp:
                     return new WhatsAppShare(reactContext);
-                case whatsappBusiness:
+                case whatsappbusiness:
                     return new WhatsAppBusinessShare(reactContext);
                 case instagram:
                     return new InstagramShare(reactContext);
